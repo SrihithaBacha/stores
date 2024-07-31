@@ -1,0 +1,82 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+    display: inline;
+}
+nav{
+    background-color: gray;
+    display: flex;
+    flex-direction: wrap; 
+    font-size: larger;
+    padding: 5px;
+}
+#add{
+    background-color: black;
+    color: white;
+    margin-left: 1300px;
+    padding: 5px;
+    font-size: large;
+    border-radius: 5px;
+}
+#Table{
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.headings{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #add8e6;
+    font-weight: bold;
+}
+.cell {
+    flex: 1;
+    padding: 5px;
+    width: 300px;
+    text-align: center;
+    height: max-content;
+}
+#store_details{
+    width: 300px;
+    margin: auto;
+    border-style: solid;
+    padding: 10px;
+    z-index: 1;
+    display:none; 
+}
+#Edit_store_details{
+    width: 300px;
+    margin: auto;
+    border-style: solid;
+    padding: 10px;
+    z-index: 1;
+    display:none; 
+}
+#addStore{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    font-size:medium;
+    border-radius : 5px;
+}
+.deleteB{
+    width: 50%;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-style: none;
+    background-color: #dc3545;
+}
+.edit{
+    width: 50%;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-style: none;
+    background-color: #0dcaf0;
+}

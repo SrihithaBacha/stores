@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stores</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body><root>
+    <nav>
+        <span>StoresInformation</span>
+        <button id="add" onclick="addStoreVisible()">ADD</button>
+    </nav>
+    <div id="store_details">
+        <b>Enter Store Details:</b><br><br><br>
+        <label for="Name">Name:</label>
+        <input type="text" id="Name" placeholder="Name"><br><br>
+        <label for="Location">Location:</label>
+        <input type="text" id="Location" placeholder="Location"><br><br>
+        <label for="Contact">Contact:</label>
+        <input type="text" id="Contact" placeholder="Contact Number"><br><br>
+        <label for="OpeningHrs">Opening_hours:</label>
+        <input type="time" id="OpeningHrs" placeholder="Opening_hours"><br><br>
+        <label for="Website">Website Link:</label>
+        <input type="text" id="Website" placeholder="Website Link"><br><br>
+        <button type="button" id="addStore" onclick="add()" >Done</button>
+    </div>
+    <div id="Edit_store_details">
+        <b>Edit Store Details:</b><br><br><br>
+        <label for="Name">Name:</label>
+        <input type="text" id="EName" placeholder="Name"><br><br>
+        <label for="Location">Location:</label>
+        <input type="text" id="ELocation" placeholder="Location"><br><br>
+        <label for="Contact">Contact:</label>
+        <input type="text" id="EContact" placeholder="Contact Number"><br><br>
+        <label for="OpeningHrs">Opening_hours:</label>
+        <input type="time" id="EOpeningHrs" placeholder="Opening_hours"><br><br>
+        <label for="Website">Website Link:</label>
+        <input type="text" id="EWebsite" placeholder="Website Link"><br><br>
+        <button type="button" id="EditStore" onclick="edit()" >Done</button>
+    </div>
+    <div id="Table">
+        <div class="headings">
+            <span class="cell">ID</span>
+            <span class="cell">Name</span>
+            <span class="cell">Location</span>
+            <span class="cell">Contact_Number</span>
+            <span class="cell">Opening_hours</span>
+            <span class="cell">Website</span>
+            <span class="cell">Created_At</span>
+            <span class="cell">Updated_At</span>
+            <span class="cell">OPS</span>
+        </div>
+    </div>
+   
+    <script src="main.js"></script>
+</root>
+</body>
+</html>
